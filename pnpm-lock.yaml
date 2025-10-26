@@ -8,6 +8,9 @@ dependencies:
   '@motionone/utils':
     specifier: ^10.17.0
     version: 10.17.0
+  '@netlify/plugin-nextjs':
+    specifier: ^5.14.3
+    version: 5.14.3
   '@radix-ui/react-hover-card':
     specifier: ^1.0.7
     version: 1.0.7(@types/react-dom@18.2.18)(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
@@ -39,7 +42,7 @@ dependencies:
     specifier: ^10.18.0
     version: 10.18.0(react-dom@18.2.0)(react@18.2.0)
   locomotive-scroll:
-    specifier: 5.0.0-beta.11
+    specifier: ^5.0.0-beta.11
     version: 5.0.0-beta.11
   lucide-react:
     specifier: ^0.314.0
@@ -1596,6 +1599,11 @@ packages:
       tslib: 2.6.2
     dev: false
 
+  /@netlify/plugin-nextjs@5.14.3:
+    resolution: {integrity: sha512-R4YIMjnVc1B1Sb64xkVHVQHzSbn6KarwlmtRJoiHA2I1vkM2eNKZ8gY/coDjxuUNY91pCjHA6uq7yiTO++BMiw==}
+    engines: {node: '>=18.0.0'}
+    dev: false
+
   /@next/env@13.5.6:
     resolution: {integrity: sha512-Yac/bV5sBGkkEXmAX5FWPS9Mmo2rthrOPRQQNfycJPkjUAUclomCPH7QFVCDQ4Mp2k2K1SSM6m0zrxYrOwtFQw==}
     dev: true
@@ -2193,6 +2201,7 @@ packages:
 
   /@studio-freight/lenis@1.0.29:
     resolution: {integrity: sha512-z/qS8ato5m2wlxQREYj5iALcxMrhhm06vEiLqYzLI+3HmpPzPscmJ8cXNiay4bj692vOot2hyTA3WP++AQVoKA==}
+    deprecated: 'The ''@studio-freight/lenis'' package has been renamed to ''lenis''. Please update your dependencies: npm install lenis and visit the documentation: https://www.npmjs.com/package/lenis'
     dev: false
 
   /@surma/rollup-plugin-off-main-thread@2.2.3:
@@ -2582,6 +2591,7 @@ packages:
 
   /acorn-import-assertions@1.9.0(acorn@8.11.3):
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
